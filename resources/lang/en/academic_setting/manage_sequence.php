@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'sequence_name' => 'Sequence Name',
+    'sequence_code' => 'Sequence Code',
+    'sn' => 'S/N',
+    'action' => 'Operations',
+    'select_term' => 'Select  Term',
+    'edit_sequence' => 'Edit Sequence',
+    'term_name' => 'Term Name',
+    'academic_year' => 'Academic Year',
+    'manage_sequence_title' => 'List of Sequences',
+    'manage_sequence_t' => 'Add A New Sequence',
+    'manage_sequence_header' => 'Manage Sequence',
+    'enter_sequence_name' => 'Enter Sequence Name',
+    'enter_sequence_code' => 'Enter Sequence Code',
+    'code_exist' => 'Hello! We\'re sorry,please the sequence with sequence code :code already exist in the system',
+    'name_exist' => 'Hello! We\'re sorry,please the sequence with name :name already exist in the system',
+    'as_success' => 'Hello!Congratulations,the sequence was successfully created. Please refer to the table below to see new  changes',
+    'as_failure' => 'Hello! We\'re sorry,sequence could not be created.Please try again later',
+    'ds_success' => 'Hi! the sequence with name :name was successfully deleted. Please refer to the table below to see new  changes',
+    'ds_failure' => 'Hi!We\'re sorry,the sequence with name :name could not be deleted at the moment.This may be because marks have already been uploaded for this sequence or the sequence has been set as the current sequence',
+    'es_success' => 'Hi! the sequence with name :name was successfully edited. Please refer to the table below to see new  changes',
+    'es_failure' => 'Hi!We\'re sorry,the sequence with name :name could not be edited.Please try again later',
+];

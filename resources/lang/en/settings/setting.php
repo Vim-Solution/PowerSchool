@@ -1,0 +1,85 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Settings Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during settings for various
+    | messages that we need to display to the user that has to do with the
+    | specific schools that will use the system.
+    |
+    */
+
+    'school_name' => 'Atlanta Bilingual Comprehensive High School',
+    'school_email' => 'ewangclarks@gmail.com',
+    'vims_email' => 'vims.powerschool@gmail.com',
+    'school_type' => 'Anglophone',
+    'anglophone' => 'Anglophone',
+    'francophone' => 'Francophone',
+    'school_acronym' => 'A.B.C.H.S DOUALA',
+    'power_school_link' => '<a href=\"localhost:8000/student_portal/result_portal\">localhost:8000/student_portal/result_portal</a>',
+    'retrieve_success' => 'Atlanta Bilingual Comprehensive High School',
+    'school_caption' => 'Welcome to Atlanta Bilingual Comprehensive High School. The place of wisdom and knowledge',
+    'matricule_setting_header' => 'Matricule Setting',
+    'matricule_initial' => 'Matricule Initial',
+    'select_program' => 'Select Program',
+    'ad' => 'Adamawa',
+    'fn' => 'Far North',
+    'nt' => 'North',
+    'sw' => 'South West',
+    'nw' => 'North West',
+    'st' => 'South',
+    'ce' => 'Center',
+    'lt' => 'Litoral',
+    'wt' => 'West',
+    'et' => 'East',
+    'Adamawa' => 'ad',
+    'Far_North' => 'fn',
+    'North' => 'nt',
+    'South_West' => 'sw',
+    'North_West' => 'nw',
+    'South' => 'st',
+    'Center' => 'ce',
+    'Litoral' => 'lt',
+    'West' => 'wt',
+    'East' => 'et',
+    's1' => 's1',
+    's2' => 's2',
+    's3' => 's3',
+    's4' => 's4',
+    's5' => 's5',
+    's6' => 's6',
+    's7' => 's7',
+    's8' => 's8',
+    'a6' => 'a6',
+    'a1' => 'a1',
+    'a2' => 'a2',
+    'a3' => 'a3',
+    'a4' => 'a4',
+    'a5' => 'a5',
+    'sequence_name' => 'Sequence Name',
+    'term_name' => 'Term Name',
+    'academic_year' => 'Academic Year',
+    'academic_setting_title' => 'Current Academic Setting',
+    'academic_setting_t' => 'Set Current Sequence And Academic Year',
+    'academic_setting_header' => 'Academic Setting',
+    'select_sequence' => 'Select Sequence',
+    'select_year' => 'Select Academic Year',
+    'ac_success' => 'Hello!Congratulations,the chosen academic setting were successfully saved. Please refer to the table below to see these changes',
+    'ac_failure' => 'Hello! We\'re sorry,the academic setting chosen could not be saved.Please try again later',
+    'manage_sequence' => 'Manage Sequences',
+    'manage_term' => 'Manage Terms',
+    'program_name' => 'Program Name',
+    'mat_setting_title' => 'List of Matricule Settings',
+    'al' => 'al',
+    'ol' => 'ol',
+    'slide_1' => 'The place of wisdom',
+    'slide_1_t' => 'Availability of a sophisticated team to train your children on what they need to know',
+    'slide_2' => 'A good and suitable environment',
+    'slide_2_t' => 'Provision of a good and well designed study environment suitable for your children\'s success',
+    'slide_3' => 'Easy management of school activities',
+    'slide_3_t' => 'Provision of a school management system that eliminates fraud and bribe and is fully error free',
+];

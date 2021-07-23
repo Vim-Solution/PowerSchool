@@ -1,0 +1,133 @@
+
+.vims-file-input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+}
+.vims-z-depth-4 {
+    font-size:13px;
+    background-color: white;
+    color: grey;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    opacity: 0.9;
+    padding-right: 17px;
+    padding-left: 17px;
+    position: absolute;
+    left: 37%;
+    top: 34%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+.vims-z-depth-4:active{
+    background-color: white;
+    color: grey;
+    opacity: 0.9;
+}
+.vims-z-depth-4:hover{
+    background-color: white;
+    color: grey;
+    opacity: 0.9;
+}
+.vims-z-depth-4:focus{
+    background-color: white;
+    color: grey;
+    opacity: 0.9;
+}
+
+
+.vims-file-upload {
+    border: 0;
+    background-color: #f6f6f6;
+    border-radius: 2px;
+    transition: border-color 300ms, background-color 300ms;
+    min-height: 50px;
+    position: relative; }
+@media screen and (prefers-reduced-motion: reduce) {
+    .vims-file-upload {
+        transition: none; } }
+.vims-file-upload:before {
+    font-family: "Material-Design-Iconic-Font";
+    content: '\f22a';
+    font-size: 2rem;
+    color: #747a80;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transition: opacity 300ms; }
+@media screen and (prefers-reduced-motion: reduce) {
+    .vims-file-upload:before {
+        transition: none; } }
+.vims-file-upload .dz-preview.dz-file-preview .dz-image, .vims-file-upload .dz-preview.dz-image-preview .dz-image {
+    border-radius: 2px;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
+.vims-file-upload .dz-preview .dz-remove {
+    position: absolute;
+    top: -3px;
+    right: -4px;
+    z-index: 20;
+    font-size: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #ff6b68;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF; }
+.vims-file-upload .dz-preview .dz-remove:hover {
+    background-color: #ff524f;
+    text-decoration: none; }
+.vims-file-upload .dz-preview .dz-remove:before {
+    content: '\f136';
+    font-size: 0.8rem;
+    font-family: "Material-Design-Iconic-Font";
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 0 6px; }
+.vims-file-upload .dz-message {
+    transition: opacity 300ms; }
+@media screen and (prefers-reduced-motion: reduce) {
+    .vims-file-upload .dz-message {
+        transition: none; } }
+.vims-file-upload .dz-message span {
+    font-size: 1rem;
+    color: #9ca0a5;
+    display: inline-block;
+    border-radius: 2px;
+    transition: color 300ms, box-shadow, 300ms;
+    padding: 0.5rem 1.4rem 0.8rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1); }
+@media screen and (prefers-reduced-motion: reduce) {
+    .vims-file-upload .dz-message span {
+        transition: none; } }
+.vims-file-upload .dz-message span:before {
+    content: '\f21e';
+    font-family: "Material-Design-Iconic-Font";
+    font-size: 1.6rem;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 0.8rem; }
+.vims-file-upload:hover .dz-message span {
+    color: #747a80; }
+.vims-file-upload:hover, .vims-file-upload.dz-drag-hover {
+    background-color: #eeeeee; }
+.vims-file-upload.dz-drag-hover .dz-message {
+    opacity: 0; }
+.vims-file-upload.dz-drag-hover:before {
+    opacity: 1; }
